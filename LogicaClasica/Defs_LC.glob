@@ -1,0 +1,13 @@
+DIGEST e74471dd2717d6321ed735f65c4adf0f
+FDefs_LC
+def 154:165 <> cotenability
+binder 168:168 <> A:1
+binder 170:170 <> B:2
+R181:183 Coq.Init.Logic <> ::type_scope:'~'_x not
+R192:192 Coq.Init.Logic <> ::type_scope:'~'_x not
+R185:188 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R189:190 Coq.Init.Logic <> ::type_scope:'~'_x not
+R191:191 Defs_LC <> B:2 var
+R184:184 Defs_LC <> A:1 var
+R218:229 Defs_LC <> cotenability def
+not 205:205 <> :::x_'°'_x

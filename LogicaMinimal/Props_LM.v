@@ -49,7 +49,11 @@ apply H0.
 apply H1.
 Qed.
   
-
+Lemma PNNP: forall P : Prop, 
+  P-> ~~P.
+Proof.
+  intros. intro. apply H0. apply H.
+Qed.
 
 
 

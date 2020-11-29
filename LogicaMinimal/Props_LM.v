@@ -1,7 +1,9 @@
-(**
-  Autor: Luis Felipe Benítez Lluis
-  script de proposiciones a demostrar de la 
-  sección de lógica minimal  *)
+(** Tarea 2 Lógica Minimal
+    Autor: Luis Felipe Benítez Lluis
+      Script de proposiciones a demostrar de la 
+      sección de lógica minimal  *)
+
+
 Proposition LM_a: forall A: Prop, ~~~A <-> ~A.
 Proof.
 intros.
@@ -41,12 +43,12 @@ Qed.
 Proposition LM_c: forall T, forall A : T->Prop,
   ~~(forall x : T, A x)-> (forall x : T, ~~ A x).
 Proof.
-intros.
-intro.
-apply H.
-intro.
-apply H0.
-apply H1.
+  intros.
+  intro.
+  apply H.
+  intro.
+  apply H0.
+  apply H1.
 Qed.
   
 Lemma PNNP: forall P : Prop, 
@@ -54,14 +56,5 @@ Lemma PNNP: forall P : Prop,
 Proof.
   intros. intro. apply H0. apply H.
 Qed.
-
-
-
-
-
-
-
-
-
 
   

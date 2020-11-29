@@ -1,13 +1,44 @@
-DIGEST e74471dd2717d6321ed735f65c4adf0f
-FDefs_LC
-def 154:165 <> cotenability
-binder 168:168 <> A:1
-binder 170:170 <> B:2
-R181:183 Coq.Init.Logic <> ::type_scope:'~'_x not
-R192:192 Coq.Init.Logic <> ::type_scope:'~'_x not
-R185:188 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R189:190 Coq.Init.Logic <> ::type_scope:'~'_x not
-R191:191 Defs_LC <> B:2 var
-R184:184 Defs_LC <> A:1 var
-R218:229 Defs_LC <> cotenability def
-not 205:205 <> :::x_'°'_x
+DIGEST 36c676bbd7bc4e89d0947dbe03ad94cd
+FTarea2VF.LogicaClasica.Defs_LC
+R126:134 Coq.Logic.Classical <> <> lib
+def 150:161 <> cotenability
+binder 164:164 <> A:1
+binder 166:166 <> B:2
+R177:179 Coq.Init.Logic <> ::type_scope:'~'_x not
+R188:188 Coq.Init.Logic <> ::type_scope:'~'_x not
+R181:184 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R185:186 Coq.Init.Logic <> ::type_scope:'~'_x not
+R187:187 Tarea2VF.LogicaClasica.Defs_LC <> B:2 var
+R180:180 Tarea2VF.LogicaClasica.Defs_LC <> A:1 var
+R214:225 Tarea2VF.LogicaClasica.Defs_LC <> cotenability def
+not 201:201 <> :::x_'°'_x
+R284:290 Coq.Logic.Classical_Prop <> classic prfax
+R378:379 Coq.Init.Logic <> ::type_scope:'~'_x not
+R378:379 Coq.Init.Logic <> ::type_scope:'~'_x not
+R550:561 Tarea2VF.LogicaClasica.Defs_LC <> cotenability def
+R595:606 Coq.Logic.Classical_Prop <> imply_to_and thm
+prf 663:675 <> and_not_imply
+binder 686:686 <> A:3
+binder 688:688 <> B:4
+R705:708 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R709:711 Coq.Init.Logic <> ::type_scope:'~'_x not
+R718:718 Coq.Init.Logic <> ::type_scope:'~'_x not
+R713:716 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R717:717 Tarea2VF.LogicaClasica.Defs_LC <> B:4 var
+R712:712 Tarea2VF.LogicaClasica.Defs_LC <> A:3 var
+R699:701 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R698:698 Tarea2VF.LogicaClasica.Defs_LC <> A:3 var
+R702:703 Coq.Init.Logic <> ::type_scope:'~'_x not
+R704:704 Tarea2VF.LogicaClasica.Defs_LC <> B:4 var
+R766:768 Coq.Init.Logic <> ::type_scope:'~'_x not
+R775:775 Coq.Init.Logic <> ::type_scope:'~'_x not
+R770:773 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R766:768 Coq.Init.Logic <> ::type_scope:'~'_x not
+R775:775 Coq.Init.Logic <> ::type_scope:'~'_x not
+R770:773 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R801:804 Coq.Logic.Classical_Prop <> NNPP thm
+R801:804 Coq.Logic.Classical_Prop <> NNPP thm
+R981:984 Tarea2VF.LogicaClasica.Defs_LC <> :::x_'°'_x not
+R981:984 Tarea2VF.LogicaClasica.Defs_LC <> :::x_'°'_x not
+R1000:1011 Tarea2VF.LogicaClasica.Defs_LC <> cotenability def
+R1040:1052 Tarea2VF.LogicaClasica.Defs_LC <> and_not_imply thm

@@ -26,9 +26,24 @@ match goal with
                     destruct H
 end.
 
-Ltac split_cot :=
+Proposition and_not_imply : forall A B : Prop, A /\~ B -> ~ (A -> B).
+Proof.
+intros A B H.
+destruct H.
+tercero_ex (~ (A -> B)).
+- assumption.
+- apply NNPP in H1.
+  apply H1 in H.
+  contradiction_classic.
+Qed. 
+
+
+(*No supe como evitar poner le teorema and_not_imply
+  en esta sección*)
+ Ltac split_cot :=
 match goal with
 | [ |- ?A ° ?B ] => unfold cotenability;
                     apply and_not_imply;
+(*                    pose proof and_not_imply;*)
                     split
-end.
+end. 

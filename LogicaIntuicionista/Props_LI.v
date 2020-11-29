@@ -1,8 +1,8 @@
-(**
-  Autor: Luis Felipe Benítez Lluis
-  script de proposiciones a demostrar de la 
-  sección de lógica intuicionista  *)
-  
+(** Tarea 2 Lógica Intuicionista
+    Autor: Luis Felipe Benítez Lluis
+      script de proposiciones a demostrar de la 
+      sección de lógica intuicionista  *)
+
 Lemma Para_a: forall A B : Prop,
   ~~A -> ~B ->~(A->B).
 Proof.

@@ -1,0 +1,101 @@
+DIGEST 371b37ec2aef162b98267b742a84e882
+FTarea2VF.LogicaIntuicionista.Props_LI
+prf 172:177 <> Para_a
+binder 187:187 <> A:1
+binder 189:189 <> B:2
+R204:207 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R210:212 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R213:214 Coq.Init.Logic <> ::type_scope:'~'_x not
+R219:219 Coq.Init.Logic <> ::type_scope:'~'_x not
+R216:217 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R218:218 Tarea2VF.LogicaIntuicionista.Props_LI <> B:2 var
+R215:215 Tarea2VF.LogicaIntuicionista.Props_LI <> A:1 var
+R208:208 Coq.Init.Logic <> ::type_scope:'~'_x not
+R209:209 Tarea2VF.LogicaIntuicionista.Props_LI <> B:2 var
+R201:201 Coq.Init.Logic <> ::type_scope:'~'_x not
+R202:202 Coq.Init.Logic <> ::type_scope:'~'_x not
+R203:203 Tarea2VF.LogicaIntuicionista.Props_LI <> A:1 var
+prf 315:322 <> Para_b_1
+binder 332:332 <> A:3
+binder 334:334 <> B:4
+R353:354 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R355:355 Coq.Init.Logic <> ::type_scope:'~'_x not
+R356:356 Coq.Init.Logic <> ::type_scope:'~'_x not
+R357:357 Tarea2VF.LogicaIntuicionista.Props_LI <> A:3 var
+R346:347 Coq.Init.Logic <> ::type_scope:'~'_x not
+R352:352 Coq.Init.Logic <> ::type_scope:'~'_x not
+R349:350 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R351:351 Tarea2VF.LogicaIntuicionista.Props_LI <> B:4 var
+R348:348 Tarea2VF.LogicaIntuicionista.Props_LI <> A:3 var
+prf 436:443 <> Para_b_2
+binder 453:453 <> A:5
+binder 455:455 <> B:6
+R474:475 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R476:476 Coq.Init.Logic <> ::type_scope:'~'_x not
+R477:477 Tarea2VF.LogicaIntuicionista.Props_LI <> B:6 var
+R467:468 Coq.Init.Logic <> ::type_scope:'~'_x not
+R473:473 Coq.Init.Logic <> ::type_scope:'~'_x not
+R470:471 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R472:472 Tarea2VF.LogicaIntuicionista.Props_LI <> B:6 var
+R469:469 Tarea2VF.LogicaIntuicionista.Props_LI <> A:5 var
+prf 558:561 <> LI_a
+binder 571:571 <> A:7
+binder 573:573 <> B:8
+R592:594 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R598:599 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R600:600 Coq.Init.Logic <> ::type_scope:'~'_x not
+R601:601 Coq.Init.Logic <> ::type_scope:'~'_x not
+R602:602 Tarea2VF.LogicaIntuicionista.Props_LI <> B:8 var
+R595:595 Coq.Init.Logic <> ::type_scope:'~'_x not
+R596:596 Coq.Init.Logic <> ::type_scope:'~'_x not
+R597:597 Tarea2VF.LogicaIntuicionista.Props_LI <> A:7 var
+R584:584 Coq.Init.Logic <> ::type_scope:'~'_x not
+R585:586 Coq.Init.Logic <> ::type_scope:'~'_x not
+R591:591 Coq.Init.Logic <> ::type_scope:'~'_x not
+R588:589 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R590:590 Tarea2VF.LogicaIntuicionista.Props_LI <> B:8 var
+R587:587 Tarea2VF.LogicaIntuicionista.Props_LI <> A:7 var
+prf 726:729 <> LI_b
+binder 739:739 <> A:9
+binder 741:741 <> B:10
+R752:752 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R761:763 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R764:764 Coq.Init.Logic <> ::type_scope:'~'_x not
+R765:766 Coq.Init.Logic <> ::type_scope:'~'_x not
+R771:771 Coq.Init.Logic <> ::type_scope:'~'_x not
+R768:769 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R770:770 Tarea2VF.LogicaIntuicionista.Props_LI <> B:10 var
+R767:767 Tarea2VF.LogicaIntuicionista.Props_LI <> A:9 var
+R756:757 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R758:758 Coq.Init.Logic <> ::type_scope:'~'_x not
+R759:759 Coq.Init.Logic <> ::type_scope:'~'_x not
+R760:760 Tarea2VF.LogicaIntuicionista.Props_LI <> B:10 var
+R753:753 Coq.Init.Logic <> ::type_scope:'~'_x not
+R754:754 Coq.Init.Logic <> ::type_scope:'~'_x not
+R755:755 Tarea2VF.LogicaIntuicionista.Props_LI <> A:9 var
+R809:816 Tarea2VF.LogicaIntuicionista.Props_LI <> Para_b_2 thm
+R809:816 Tarea2VF.LogicaIntuicionista.Props_LI <> Para_b_2 thm
+R839:846 Tarea2VF.LogicaIntuicionista.Props_LI <> Para_b_1 thm
+R839:846 Tarea2VF.LogicaIntuicionista.Props_LI <> Para_b_1 thm
+prf 913:914 <> LI
+binder 924:924 <> A:11
+binder 926:926 <> B:12
+R937:937 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R946:949 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R941:942 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R943:943 Coq.Init.Logic <> ::type_scope:'~'_x not
+R944:944 Coq.Init.Logic <> ::type_scope:'~'_x not
+R945:945 Tarea2VF.LogicaIntuicionista.Props_LI <> B:12 var
+R938:938 Coq.Init.Logic <> ::type_scope:'~'_x not
+R939:939 Coq.Init.Logic <> ::type_scope:'~'_x not
+R940:940 Tarea2VF.LogicaIntuicionista.Props_LI <> A:11 var
+R950:950 Coq.Init.Logic <> ::type_scope:'~'_x not
+R951:952 Coq.Init.Logic <> ::type_scope:'~'_x not
+R957:957 Coq.Init.Logic <> ::type_scope:'~'_x not
+R954:955 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R956:956 Tarea2VF.LogicaIntuicionista.Props_LI <> B:12 var
+R953:953 Tarea2VF.LogicaIntuicionista.Props_LI <> A:11 var
+R985:988 Tarea2VF.LogicaIntuicionista.Props_LI <> LI_b thm
+R985:988 Tarea2VF.LogicaIntuicionista.Props_LI <> LI_b thm
+R999:1002 Tarea2VF.LogicaIntuicionista.Props_LI <> LI_a thm
+R999:1002 Tarea2VF.LogicaIntuicionista.Props_LI <> LI_a thm

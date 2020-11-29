@@ -3,55 +3,12 @@
   script de proposiciones a demostrar de la 
   sección de lógica clásica  *)
 Require Import Classical.
+From Tarea2VF Require Export Defs_LC .
+From Tarea2VF Require Import Props_LM .
+  
 
 
-Definition cotenability (A B:Prop) := ~ (A -> ~ B).
-
-Notation "A ° B" := (cotenability A B) (at level 60).
-
-(* Ltac tercero_ex (P:Prop) :=
-match goal with
-| [ |- _ ] => assert (P \/ ~P);
-                apply classic
-end. *)
-
-
-
-
-(* Mias *)
-
-Ltac tercero_ex T :=
-  assert (TE := classic (T));
-  destruct TE.
-(* Add LoadPath "C_LogicaClasica" .  *)
-(* Require Import Defs_LC . *)
-
-Ltac contradiction_classic :=
-match goal with
-| [ H1: ?A , H2: ~ ?A|- _ ] => contradict H1; assumption
-(*| [  |- ~ ?P] => tercero_ex (?P);  2 : {assumption . }*)
-end. 
-
-
-(* Lemas *)
-Lemma PNNP_classic: forall P: Prop,
-  P-> ~~P.
-Proof.
-  intros.
-  tercero_ex (~P).
-  contradiction_classic.
-  assumption.
-Qed.
-
-
-
-
-Ltac destruct_cot H :=
-match goal with
-| [ H : _ |- _ ] => unfold cotenability in H;
-                    apply imply_to_and in H;
-                    destruct H
-end.
+(** Lemas *)
 
 
 Proposition and_not_imply : forall A B : Prop, A /\~ B -> ~ (A -> B).
@@ -65,15 +22,24 @@ tercero_ex (~ (A -> B)).
   contradiction_classic.
 Qed.
 
-Ltac split_cot :=
-match goal with
-| [ |- ?A ° ?B ] => unfold cotenability;
-                    apply and_not_imply;
-                    split
-end.
+(* Este teorema se prueba en LM pero usa intros
+  por lo que se vuelve a probar en forma clásica para
+  evitar usar estas técnicas. No obstante su uso no
+  implica que nos salgamos de LM *)
+Check PNNP.
 
+Lemma PNNP_classic: forall P: Prop,
+  P-> ~~P.
+Proof.
+  intros.
+  tercero_ex (~P).
+  contradiction_classic.
+  assumption.
+Qed.
 
-
+(* Este teorema puede que sea redundante y ya haya uno
+   semejante, pero se vuelve a probar para asegurar no 
+   usar las técnicas prohibidas*)
 
 Theorem Contrapos_classic :forall P Q: Prop, (P -> Q) <-> (~Q -> ~P).
 Proof.
@@ -90,15 +56,38 @@ Proof.
     contradiction_classic.
 Qed.
 
-Check imply_to_or.
-Check imply_to_and.
+Lemma Univ_distr_and_classic: 
+  forall T ,forall P Q: T -> Prop  , (forall x :T,
+  ( P x /\ Q x)) <-> ((forall x:T, P x)/\ (forall x :T, Q x)).
+Proof.
+  intros.
+  split.
+  + split.
+    intros.
+    specialize H with x.
+    destruct H.
+    assumption .
+    intros.
+    specialize H with x.
+    destruct H.
+    assumption .
+  + intros.
+    destruct H.
+    split.
+    - specialize H with x.
+      assumption.
+    - specialize H0 with x.
+      assumption.
+Qed.
 
 
 
 
 
-
-
+(** Propiedades del operador de cotenabilidad *)
+(* Este operador no es nada mas que un 'and' con pasos
+   extra. Todas las propiedades son las correspondientes
+   a las ya conocidas del operador de conjunción.*)
 
 Lemma cotComm_ida : forall A B : Prop, A ° B -> B ° A.
 Proof.
@@ -282,29 +271,7 @@ Proof.
 Qed.
 
   
-Lemma Univ_distr_and_classic: 
-  forall T ,forall P Q: T -> Prop  , (forall x :T,
-  ( P x /\ Q x)) <-> ((forall x:T, P x)/\ (forall x :T, Q x)).
-Proof.
-  intros.
-  split.
-  + split.
-    intros.
-    specialize H with x.
-    destruct H.
-    assumption .
-    intros.
-    specialize H with x.
-    destruct H.
-    assumption .
-  + intros.
-    destruct H.
-    split.
-    - specialize H with x.
-      assumption.
-    - specialize H0 with x.
-      assumption.
-Qed.
+
   
 
 Proposition C: forall T, forall P H C L R: T-> Prop, forall A B: T -> T -> Prop, 
@@ -343,19 +310,4 @@ Proof.
   destruct H7.
   contradiction_classic.
 Qed.
-
-(*   
-  Modus ponens
-  modus tolens
-  contrapositiva
-  specialize sin perder hipotesis
-  tercero excluido *)
-  
-  
-  
-  
-          
-
-
-
 

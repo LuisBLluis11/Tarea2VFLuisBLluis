@@ -1,0 +1,56 @@
+DIGEST e421672bbc61bb0d2ca105d10786e29c
+FTarea2VF.LogicaMinimal.Props_LM
+prf 167:170 <> LM_a
+binder 180:180 <> A:1
+R193:197 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R189:189 Coq.Init.Logic <> ::type_scope:'~'_x not
+R190:190 Coq.Init.Logic <> ::type_scope:'~'_x not
+R191:191 Coq.Init.Logic <> ::type_scope:'~'_x not
+R192:192 Tarea2VF.LogicaMinimal.Props_LM <> A:1 var
+R198:198 Coq.Init.Logic <> ::type_scope:'~'_x not
+R199:199 Tarea2VF.LogicaMinimal.Props_LM <> A:1 var
+R308:310 Coq.Init.Logic <> not def
+prf 372:375 <> LM_b
+binder 385:385 <> A:2
+binder 387:387 <> B:3
+R409:412 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R416:419 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R413:413 Coq.Init.Logic <> ::type_scope:'~'_x not
+R414:414 Coq.Init.Logic <> ::type_scope:'~'_x not
+R415:415 Tarea2VF.LogicaMinimal.Props_LM <> A:2 var
+R420:420 Coq.Init.Logic <> ::type_scope:'~'_x not
+R421:421 Coq.Init.Logic <> ::type_scope:'~'_x not
+R422:422 Tarea2VF.LogicaMinimal.Props_LM <> B:3 var
+R399:399 Coq.Init.Logic <> ::type_scope:'~'_x not
+R400:401 Coq.Init.Logic <> ::type_scope:'~'_x not
+R408:408 Coq.Init.Logic <> ::type_scope:'~'_x not
+R403:406 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R402:402 Tarea2VF.LogicaMinimal.Props_LM <> A:2 var
+R407:407 Tarea2VF.LogicaMinimal.Props_LM <> B:3 var
+prf 605:608 <> LM_c
+binder 618:618 <> T:4
+R633:634 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R632:632 Tarea2VF.LogicaMinimal.Props_LM <> T:4 var
+binder 628:628 <> A:5
+R664:667 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R688:688 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R679:679 Tarea2VF.LogicaMinimal.Props_LM <> T:4 var
+binder 675:675 <> x:6
+R682:682 Coq.Init.Logic <> ::type_scope:'~'_x not
+R683:684 Coq.Init.Logic <> ::type_scope:'~'_x not
+R685:685 Tarea2VF.LogicaMinimal.Props_LM <> A:5 var
+R687:687 Tarea2VF.LogicaMinimal.Props_LM <> x:6 var
+R643:643 Coq.Init.Logic <> ::type_scope:'~'_x not
+R644:645 Coq.Init.Logic <> ::type_scope:'~'_x not
+R663:663 Coq.Init.Logic <> ::type_scope:'~'_x not
+R657:657 Tarea2VF.LogicaMinimal.Props_LM <> T:4 var
+binder 653:653 <> x:7
+R660:660 Tarea2VF.LogicaMinimal.Props_LM <> A:5 var
+R662:662 Tarea2VF.LogicaMinimal.Props_LM <> x:7 var
+prf 775:778 <> PNNP
+binder 788:788 <> P:8
+R802:804 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R805:805 Coq.Init.Logic <> ::type_scope:'~'_x not
+R806:806 Coq.Init.Logic <> ::type_scope:'~'_x not
+R807:807 Tarea2VF.LogicaMinimal.Props_LM <> P:8 var
+R801:801 Tarea2VF.LogicaMinimal.Props_LM <> P:8 var

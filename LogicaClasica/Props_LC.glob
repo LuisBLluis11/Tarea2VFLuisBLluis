@@ -1,0 +1,500 @@
+DIGEST 63abe8cc904c4f6b7ea85e0f4e06f2a1
+FTarea2VF.LogicaClasica.Props_LC
+R135:143 Coq.Logic.Classical <> <> lib
+R175:181 Tarea2VF.LogicaClasica.Defs_LC <> <> lib
+R214:221 Tarea2VF.LogicaMinimal.Props_LM <> <> lib
+prf 257:269 <> and_not_imply
+binder 280:280 <> A:1
+binder 282:282 <> B:2
+R299:302 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R303:305 Coq.Init.Logic <> ::type_scope:'~'_x not
+R312:312 Coq.Init.Logic <> ::type_scope:'~'_x not
+R307:310 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R311:311 Tarea2VF.LogicaClasica.Props_LC <> B:2 var
+R306:306 Tarea2VF.LogicaClasica.Props_LC <> A:1 var
+R293:295 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R292:292 Tarea2VF.LogicaClasica.Props_LC <> A:1 var
+R296:297 Coq.Init.Logic <> ::type_scope:'~'_x not
+R298:298 Tarea2VF.LogicaClasica.Props_LC <> B:2 var
+R360:362 Coq.Init.Logic <> ::type_scope:'~'_x not
+R369:369 Coq.Init.Logic <> ::type_scope:'~'_x not
+R364:367 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R360:362 Coq.Init.Logic <> ::type_scope:'~'_x not
+R369:369 Coq.Init.Logic <> ::type_scope:'~'_x not
+R364:367 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R395:398 Coq.Logic.Classical_Prop <> NNPP thm
+R395:398 Coq.Logic.Classical_Prop <> NNPP thm
+R653:656 Tarea2VF.LogicaMinimal.Props_LM <> PNNP thm
+prf 666:677 <> PNNP_classic
+binder 687:687 <> P:3
+R699:701 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R702:702 Coq.Init.Logic <> ::type_scope:'~'_x not
+R703:703 Coq.Init.Logic <> ::type_scope:'~'_x not
+R704:704 Tarea2VF.LogicaClasica.Props_LC <> P:3 var
+R698:698 Tarea2VF.LogicaClasica.Props_LC <> P:3 var
+R738:738 Coq.Init.Logic <> ::type_scope:'~'_x not
+R738:738 Coq.Init.Logic <> ::type_scope:'~'_x not
+prf 943:959 <> Contrapos_classic
+binder 969:969 <> P:4
+binder 971:971 <> Q:5
+R980:980 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R987:993 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1002:1002 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R982:985 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R986:986 Tarea2VF.LogicaClasica.Props_LC <> Q:5 var
+R981:981 Tarea2VF.LogicaClasica.Props_LC <> P:4 var
+R996:999 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1000:1000 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1001:1001 Tarea2VF.LogicaClasica.Props_LC <> P:4 var
+R994:994 Coq.Init.Logic <> ::type_scope:'~'_x not
+R995:995 Tarea2VF.LogicaClasica.Props_LC <> Q:5 var
+prf 1226:1247 <> Univ_distr_and_classic
+binder 1260:1260 <> T:6
+R1276:1279 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1275:1275 Tarea2VF.LogicaClasica.Props_LC <> T:6 var
+binder 1270:1270 <> P:7
+binder 1272:1272 <> Q:8
+R1288:1288 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1317:1323 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1362:1362 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1299:1299 Tarea2VF.LogicaClasica.Props_LC <> T:6 var
+binder 1296:1296 <> x:9
+R1309:1312 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1306:1306 Tarea2VF.LogicaClasica.Props_LC <> P:7 var
+R1308:1308 Tarea2VF.LogicaClasica.Props_LC <> x:9 var
+R1313:1313 Tarea2VF.LogicaClasica.Props_LC <> Q:8 var
+R1315:1315 Tarea2VF.LogicaClasica.Props_LC <> x:9 var
+R1324:1324 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1340:1344 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1361:1361 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1334:1334 Tarea2VF.LogicaClasica.Props_LC <> T:6 var
+binder 1332:1332 <> x:10
+R1337:1337 Tarea2VF.LogicaClasica.Props_LC <> P:7 var
+R1339:1339 Tarea2VF.LogicaClasica.Props_LC <> x:10 var
+R1355:1355 Tarea2VF.LogicaClasica.Props_LC <> T:6 var
+binder 1352:1352 <> x:11
+R1358:1358 Tarea2VF.LogicaClasica.Props_LC <> Q:8 var
+R1360:1360 Tarea2VF.LogicaClasica.Props_LC <> x:11 var
+prf 1903:1913 <> cotComm_ida
+binder 1924:1924 <> A:12
+binder 1926:1926 <> B:13
+R1942:1945 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1947:1950 Tarea2VF.LogicaClasica.Defs_LC <> :::x_'°'_x not
+R1946:1946 Tarea2VF.LogicaClasica.Props_LC <> B:13 var
+R1951:1951 Tarea2VF.LogicaClasica.Props_LC <> A:12 var
+R1937:1940 Tarea2VF.LogicaClasica.Defs_LC <> :::x_'°'_x not
+R1936:1936 Tarea2VF.LogicaClasica.Props_LC <> A:12 var
+R1941:1941 Tarea2VF.LogicaClasica.Props_LC <> B:13 var
+R2001:2004 Coq.Logic.Classical_Prop <> NNPP thm
+R2001:2004 Coq.Logic.Classical_Prop <> NNPP thm
+R2055:2066 Tarea2VF.LogicaClasica.Props_LC <> PNNP_classic thm
+R2055:2066 Tarea2VF.LogicaClasica.Props_LC <> PNNP_classic thm
+prf 2103:2109 <> cotComm
+binder 2120:2120 <> A:14
+binder 2122:2122 <> B:15
+R2138:2142 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R2133:2136 Tarea2VF.LogicaClasica.Defs_LC <> :::x_'°'_x not
+R2132:2132 Tarea2VF.LogicaClasica.Props_LC <> A:14 var
+R2137:2137 Tarea2VF.LogicaClasica.Props_LC <> B:15 var
+R2144:2147 Tarea2VF.LogicaClasica.Defs_LC <> :::x_'°'_x not
+R2143:2143 Tarea2VF.LogicaClasica.Props_LC <> B:15 var
+R2148:2148 Tarea2VF.LogicaClasica.Props_LC <> A:14 var
+R2178:2188 Tarea2VF.LogicaClasica.Props_LC <> cotComm_ida thm
+R2178:2188 Tarea2VF.LogicaClasica.Props_LC <> cotComm_ida thm
+R2201:2211 Tarea2VF.LogicaClasica.Props_LC <> cotComm_ida thm
+R2201:2211 Tarea2VF.LogicaClasica.Props_LC <> cotComm_ida thm
+prf 2233:2239 <> cotAsoc
+binder 2249:2249 <> A:16
+binder 2251:2251 <> B:17
+binder 2253:2253 <> C:18
+R2278:2282 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R2265:2265 Tarea2VF.LogicaClasica.Defs_LC <> :::x_'°'_x not
+R2272:2276 Tarea2VF.LogicaClasica.Defs_LC <> :::x_'°'_x not
+R2267:2270 Tarea2VF.LogicaClasica.Defs_LC <> :::x_'°'_x not
+R2266:2266 Tarea2VF.LogicaClasica.Props_LC <> A:16 var
+R2271:2271 Tarea2VF.LogicaClasica.Props_LC <> B:17 var
+R2277:2277 Tarea2VF.LogicaClasica.Props_LC <> C:18 var
+R2284:2288 Tarea2VF.LogicaClasica.Defs_LC <> :::x_'°'_x not
+R2295:2295 Tarea2VF.LogicaClasica.Defs_LC <> :::x_'°'_x not
+R2283:2283 Tarea2VF.LogicaClasica.Props_LC <> A:16 var
+R2290:2293 Tarea2VF.LogicaClasica.Defs_LC <> :::x_'°'_x not
+R2289:2289 Tarea2VF.LogicaClasica.Props_LC <> B:17 var
+R2294:2294 Tarea2VF.LogicaClasica.Props_LC <> C:18 var
+R2357:2360 Coq.Logic.Classical_Prop <> NNPP thm
+R2357:2360 Coq.Logic.Classical_Prop <> NNPP thm
+R2379:2390 Coq.Logic.Classical_Prop <> imply_to_and thm
+R2379:2390 Coq.Logic.Classical_Prop <> imply_to_and thm
+R2424:2427 Coq.Logic.Classical_Prop <> NNPP thm
+R2424:2427 Coq.Logic.Classical_Prop <> NNPP thm
+R2481:2492 Tarea2VF.LogicaClasica.Props_LC <> PNNP_classic thm
+R2481:2492 Tarea2VF.LogicaClasica.Props_LC <> PNNP_classic thm
+R2515:2518 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2519:2520 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2515:2518 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2519:2520 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2643:2646 Coq.Logic.Classical_Prop <> NNPP thm
+R2643:2646 Coq.Logic.Classical_Prop <> NNPP thm
+R2666:2677 Coq.Logic.Classical_Prop <> imply_to_and thm
+R2666:2677 Coq.Logic.Classical_Prop <> imply_to_and thm
+R2713:2716 Coq.Logic.Classical_Prop <> NNPP thm
+R2713:2716 Coq.Logic.Classical_Prop <> NNPP thm
+R2760:2763 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2764:2765 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2760:2763 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2764:2765 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2856:2867 Tarea2VF.LogicaClasica.Props_LC <> PNNP_classic thm
+R2856:2867 Tarea2VF.LogicaClasica.Props_LC <> PNNP_classic thm
+prf 2909:2915 <> cotDist
+binder 2925:2925 <> A:19
+binder 2927:2927 <> B:20
+binder 2929:2929 <> C:21
+R2961:2965 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R2941:2941 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R2948:2953 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R2960:2960 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R2943:2946 Tarea2VF.LogicaClasica.Defs_LC <> :::x_'°'_x not
+R2942:2942 Tarea2VF.LogicaClasica.Props_LC <> A:19 var
+R2947:2947 Tarea2VF.LogicaClasica.Props_LC <> B:20 var
+R2955:2958 Tarea2VF.LogicaClasica.Defs_LC <> :::x_'°'_x not
+R2954:2954 Tarea2VF.LogicaClasica.Props_LC <> A:19 var
+R2959:2959 Tarea2VF.LogicaClasica.Props_LC <> C:21 var
+R2967:2971 Tarea2VF.LogicaClasica.Defs_LC <> :::x_'°'_x not
+R2978:2978 Tarea2VF.LogicaClasica.Defs_LC <> :::x_'°'_x not
+R2966:2966 Tarea2VF.LogicaClasica.Props_LC <> A:19 var
+R2973:2976 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R2972:2972 Tarea2VF.LogicaClasica.Props_LC <> B:20 var
+R2977:2977 Tarea2VF.LogicaClasica.Props_LC <> C:21 var
+R3069:3072 Coq.Logic.Classical_Prop <> NNPP thm
+R3069:3072 Coq.Logic.Classical_Prop <> NNPP thm
+R3132:3143 Tarea2VF.LogicaClasica.Props_LC <> PNNP_classic thm
+R3132:3143 Tarea2VF.LogicaClasica.Props_LC <> PNNP_classic thm
+R3214:3217 Coq.Logic.Classical_Prop <> NNPP thm
+R3214:3217 Coq.Logic.Classical_Prop <> NNPP thm
+R3277:3288 Tarea2VF.LogicaClasica.Props_LC <> PNNP_classic thm
+R3277:3288 Tarea2VF.LogicaClasica.Props_LC <> PNNP_classic thm
+R3369:3372 Coq.Logic.Classical_Prop <> NNPP thm
+R3369:3372 Coq.Logic.Classical_Prop <> NNPP thm
+R3445:3456 Tarea2VF.LogicaClasica.Props_LC <> PNNP_classic thm
+R3445:3456 Tarea2VF.LogicaClasica.Props_LC <> PNNP_classic thm
+R3519:3530 Tarea2VF.LogicaClasica.Props_LC <> PNNP_classic thm
+R3519:3530 Tarea2VF.LogicaClasica.Props_LC <> PNNP_classic thm
+prf 3563:3571 <> cotFusion
+binder 3581:3581 <> A:22
+binder 3583:3583 <> B:23
+binder 3585:3585 <> C:24
+R3597:3597 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3608:3612 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3624:3624 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3599:3601 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3603:3606 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3607:3607 Tarea2VF.LogicaClasica.Props_LC <> C:24 var
+R3602:3602 Tarea2VF.LogicaClasica.Props_LC <> B:23 var
+R3598:3598 Tarea2VF.LogicaClasica.Props_LC <> A:22 var
+R3613:3613 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3620:3622 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3623:3623 Tarea2VF.LogicaClasica.Props_LC <> C:24 var
+R3615:3618 Tarea2VF.LogicaClasica.Defs_LC <> :::x_'°'_x not
+R3614:3614 Tarea2VF.LogicaClasica.Props_LC <> A:22 var
+R3619:3619 Tarea2VF.LogicaClasica.Props_LC <> B:23 var
+R3692:3695 Coq.Logic.Classical_Prop <> NNPP thm
+R3692:3695 Coq.Logic.Classical_Prop <> NNPP thm
+R3814:3825 Tarea2VF.LogicaClasica.Props_LC <> PNNP_classic thm
+R3814:3825 Tarea2VF.LogicaClasica.Props_LC <> PNNP_classic thm
+prf 3862:3871 <> cotDefImpl
+binder 3881:3881 <> A:25
+binder 3883:3883 <> B:26
+R3895:3895 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3902:3906 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3897:3900 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3901:3901 Tarea2VF.LogicaClasica.Props_LC <> B:26 var
+R3896:3896 Tarea2VF.LogicaClasica.Props_LC <> A:25 var
+R3907:3908 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3919:3919 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3910:3914 Tarea2VF.LogicaClasica.Defs_LC <> :::x_'°'_x not
+R3918:3918 Tarea2VF.LogicaClasica.Defs_LC <> :::x_'°'_x not
+R3909:3909 Tarea2VF.LogicaClasica.Props_LC <> A:25 var
+R3915:3916 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3917:3917 Tarea2VF.LogicaClasica.Props_LC <> B:26 var
+R3977:3981 Tarea2VF.LogicaClasica.Defs_LC <> :::x_'°'_x not
+R3985:3985 Tarea2VF.LogicaClasica.Defs_LC <> :::x_'°'_x not
+R3982:3983 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3977:3981 Tarea2VF.LogicaClasica.Defs_LC <> :::x_'°'_x not
+R3985:3985 Tarea2VF.LogicaClasica.Defs_LC <> :::x_'°'_x not
+R3982:3983 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4024:4027 Coq.Logic.Classical_Prop <> NNPP thm
+R4024:4027 Coq.Logic.Classical_Prop <> NNPP thm
+R4211:4222 Tarea2VF.LogicaClasica.Props_LC <> PNNP_classic thm
+R4211:4222 Tarea2VF.LogicaClasica.Props_LC <> PNNP_classic thm
+prf 4311:4311 <> A
+binder 4321:4321 <> T:27
+R4332:4332 Tarea2VF.LogicaClasica.Props_LC <> T:27 var
+binder 4330:4330 <> a:28
+R4350:4353 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4349:4349 Tarea2VF.LogicaClasica.Props_LC <> T:27 var
+binder 4342:4342 <> A:29
+binder 4344:4344 <> B:30
+binder 4346:4346 <> C:31
+R4363:4363 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4431:4459 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4460:4460 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4472:4490 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4491:4492 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4509:4509 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4503:4503 Tarea2VF.LogicaClasica.Props_LC <> T:27 var
+binder 4500:4500 <> x:32
+R4506:4506 Tarea2VF.LogicaClasica.Props_LC <> A:29 var
+R4508:4508 Tarea2VF.LogicaClasica.Props_LC <> x:32 var
+R4464:4467 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4461:4461 Tarea2VF.LogicaClasica.Props_LC <> B:30 var
+R4463:4463 Tarea2VF.LogicaClasica.Props_LC <> a:28 var
+R4468:4468 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4469:4469 Tarea2VF.LogicaClasica.Props_LC <> C:31 var
+R4471:4471 Tarea2VF.LogicaClasica.Props_LC <> a:28 var
+R4364:4364 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4390:4404 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4430:4430 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4415:4415 Tarea2VF.LogicaClasica.Props_LC <> T:27 var
+binder 4412:4412 <> x:33
+R4422:4425 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4426:4426 Tarea2VF.LogicaClasica.Props_LC <> C:31 var
+R4428:4428 Tarea2VF.LogicaClasica.Props_LC <> x:33 var
+R4419:4419 Tarea2VF.LogicaClasica.Props_LC <> B:30 var
+R4421:4421 Tarea2VF.LogicaClasica.Props_LC <> x:33 var
+R4365:4371 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4375:4377 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4388:4389 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4374:4374 Tarea2VF.LogicaClasica.Props_LC <> T:27 var
+binder 4372:4372 <> x:34
+R4381:4384 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4378:4378 Tarea2VF.LogicaClasica.Props_LC <> A:29 var
+R4380:4380 Tarea2VF.LogicaClasica.Props_LC <> x:34 var
+R4385:4385 Tarea2VF.LogicaClasica.Props_LC <> B:30 var
+R4387:4387 Tarea2VF.LogicaClasica.Props_LC <> x:34 var
+R4552:4565 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+R4552:4565 Coq.Logic.Classical_Pred_Type <> ex_not_not_all thm
+binder 4608:4609 <> x0:35
+R4620:4623 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4626:4627 Tarea2VF.LogicaClasica.Props_LC <> x0:35 var
+R4618:4619 Tarea2VF.LogicaClasica.Props_LC <> x0:35 var
+binder 4608:4609 <> x0:36
+R4620:4623 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4626:4627 Tarea2VF.LogicaClasica.Props_LC <> x0:36 var
+R4618:4619 Tarea2VF.LogicaClasica.Props_LC <> x0:36 var
+prf 4812:4812 <> B
+binder 4822:4822 <> T:37
+R4833:4833 Tarea2VF.LogicaClasica.Props_LC <> T:37 var
+binder 4831:4831 <> m:38
+R4849:4852 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4848:4848 Tarea2VF.LogicaClasica.Props_LC <> T:37 var
+binder 4843:4843 <> C:39
+binder 4845:4845 <> W:40
+R4872:4874 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4876:4878 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4875:4875 Tarea2VF.LogicaClasica.Props_LC <> T:37 var
+R4871:4871 Tarea2VF.LogicaClasica.Props_LC <> T:37 var
+binder 4866:4866 <> B:41
+binder 4868:4868 <> G:42
+R4889:4889 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4974:4988 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4989:4989 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5087:5106 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5130:5130 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 5114:5114 <> x:43
+R5121:5124 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5125:5125 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5126:5126 Tarea2VF.LogicaClasica.Props_LC <> W:40 var
+R5128:5128 Tarea2VF.LogicaClasica.Props_LC <> x:43 var
+R5118:5118 Tarea2VF.LogicaClasica.Props_LC <> C:39 var
+R5120:5120 Tarea2VF.LogicaClasica.Props_LC <> x:43 var
+R5000:5000 Tarea2VF.LogicaClasica.Props_LC <> T:37 var
+binder 4997:4997 <> z:44
+R5030:5080 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5081:5081 Tarea2VF.LogicaClasica.Props_LC <> B:41 var
+R5085:5085 Tarea2VF.LogicaClasica.Props_LC <> m:38 var
+R5083:5083 Tarea2VF.LogicaClasica.Props_LC <> z:44 var
+R5003:5004 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5028:5029 Coq.Init.Logic <> ::type_scope:'~'_x not
+binder 5012:5012 <> y:45
+R5018:5021 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5022:5022 Tarea2VF.LogicaClasica.Props_LC <> G:42 var
+R5026:5026 Tarea2VF.LogicaClasica.Props_LC <> y:45 var
+R5024:5024 Tarea2VF.LogicaClasica.Props_LC <> z:44 var
+R5015:5015 Tarea2VF.LogicaClasica.Props_LC <> W:40 var
+R5017:5017 Tarea2VF.LogicaClasica.Props_LC <> y:45 var
+R4890:4896 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4900:4902 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4973:4973 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4899:4899 Tarea2VF.LogicaClasica.Props_LC <> T:37 var
+binder 4897:4897 <> x:46
+R4910:4942 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4972:4972 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4903:4904 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4905:4905 Tarea2VF.LogicaClasica.Props_LC <> B:41 var
+R4909:4909 Tarea2VF.LogicaClasica.Props_LC <> m:38 var
+R4907:4907 Tarea2VF.LogicaClasica.Props_LC <> x:46 var
+R4952:4952 Tarea2VF.LogicaClasica.Props_LC <> T:37 var
+binder 4950:4950 <> y:47
+R4959:4962 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4963:4964 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4965:4965 Tarea2VF.LogicaClasica.Props_LC <> G:42 var
+R4969:4969 Tarea2VF.LogicaClasica.Props_LC <> y:47 var
+R4967:4967 Tarea2VF.LogicaClasica.Props_LC <> x:46 var
+R4956:4956 Tarea2VF.LogicaClasica.Props_LC <> C:39 var
+R4958:4958 Tarea2VF.LogicaClasica.Props_LC <> y:47 var
+R5217:5233 Tarea2VF.LogicaClasica.Props_LC <> Contrapos_classic thm
+R5217:5233 Tarea2VF.LogicaClasica.Props_LC <> Contrapos_classic thm
+R5271:5274 Coq.Logic.Classical_Prop <> NNPP thm
+R5271:5274 Coq.Logic.Classical_Prop <> NNPP thm
+R5371:5387 Tarea2VF.LogicaClasica.Props_LC <> Contrapos_classic thm
+R5371:5387 Tarea2VF.LogicaClasica.Props_LC <> Contrapos_classic thm
+prf 5458:5458 <> C
+binder 5468:5468 <> T:48
+R5490:5492 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5489:5489 Tarea2VF.LogicaClasica.Props_LC <> T:48 var
+binder 5478:5478 <> P:49
+binder 5480:5480 <> H:50
+binder 5482:5482 <> C:51
+binder 5484:5484 <> L:52
+binder 5486:5486 <> R:53
+R5512:5515 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5517:5520 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5516:5516 Tarea2VF.LogicaClasica.Props_LC <> T:48 var
+R5511:5511 Tarea2VF.LogicaClasica.Props_LC <> T:48 var
+binder 5506:5506 <> A:54
+binder 5508:5508 <> B:55
+R5531:5531 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5677:5688 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5689:5689 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5847:5862 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5863:5863 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5884:5893 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5919:5919 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5904:5904 Tarea2VF.LogicaClasica.Props_LC <> T:48 var
+binder 5901:5901 <> x:56
+R5911:5912 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R5907:5907 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5908:5908 Tarea2VF.LogicaClasica.Props_LC <> P:49 var
+R5910:5910 Tarea2VF.LogicaClasica.Props_LC <> x:56 var
+R5913:5914 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5915:5915 Tarea2VF.LogicaClasica.Props_LC <> H:50 var
+R5917:5917 Tarea2VF.LogicaClasica.Props_LC <> x:56 var
+R5864:5864 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5876:5876 Tarea2VF.LogicaClasica.Props_LC <> T:48 var
+binder 5872:5872 <> x:57
+binder 5874:5874 <> y:58
+R5879:5879 Tarea2VF.LogicaClasica.Props_LC <> B:55 var
+R5883:5883 Tarea2VF.LogicaClasica.Props_LC <> y:58 var
+R5881:5881 Tarea2VF.LogicaClasica.Props_LC <> x:57 var
+R5690:5690 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5737:5768 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5846:5846 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5779:5779 Tarea2VF.LogicaClasica.Props_LC <> T:48 var
+binder 5776:5776 <> x:59
+R5785:5824 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5843:5843 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5782:5782 Tarea2VF.LogicaClasica.Props_LC <> R:53 var
+R5784:5784 Tarea2VF.LogicaClasica.Props_LC <> x:59 var
+R5835:5835 Tarea2VF.LogicaClasica.Props_LC <> T:48 var
+binder 5832:5832 <> y:60
+R5838:5838 Tarea2VF.LogicaClasica.Props_LC <> B:55 var
+R5842:5842 Tarea2VF.LogicaClasica.Props_LC <> y:60 var
+R5840:5840 Tarea2VF.LogicaClasica.Props_LC <> x:59 var
+R5691:5697 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5701:5702 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5736:5736 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5700:5700 Tarea2VF.LogicaClasica.Props_LC <> T:48 var
+binder 5698:5698 <> x:61
+R5706:5709 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5735:5735 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5703:5703 Tarea2VF.LogicaClasica.Props_LC <> H:50 var
+R5705:5705 Tarea2VF.LogicaClasica.Props_LC <> x:61 var
+R5719:5719 Tarea2VF.LogicaClasica.Props_LC <> T:48 var
+binder 5717:5717 <> y:62
+R5725:5728 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5729:5729 Tarea2VF.LogicaClasica.Props_LC <> A:54 var
+R5733:5733 Tarea2VF.LogicaClasica.Props_LC <> y:62 var
+R5731:5731 Tarea2VF.LogicaClasica.Props_LC <> x:61 var
+R5722:5722 Tarea2VF.LogicaClasica.Props_LC <> L:52 var
+R5724:5724 Tarea2VF.LogicaClasica.Props_LC <> y:62 var
+R5532:5532 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5561:5592 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5676:5676 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5602:5602 Tarea2VF.LogicaClasica.Props_LC <> T:48 var
+binder 5600:5600 <> x:63
+R5608:5646 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5674:5674 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5605:5605 Tarea2VF.LogicaClasica.Props_LC <> C:51 var
+R5607:5607 Tarea2VF.LogicaClasica.Props_LC <> x:63 var
+R5657:5657 Tarea2VF.LogicaClasica.Props_LC <> T:48 var
+binder 5654:5654 <> y:64
+R5664:5667 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5668:5668 Tarea2VF.LogicaClasica.Props_LC <> A:54 var
+R5672:5672 Tarea2VF.LogicaClasica.Props_LC <> y:64 var
+R5670:5670 Tarea2VF.LogicaClasica.Props_LC <> x:63 var
+R5661:5661 Tarea2VF.LogicaClasica.Props_LC <> L:52 var
+R5663:5663 Tarea2VF.LogicaClasica.Props_LC <> y:64 var
+R5533:5534 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5560:5560 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5544:5544 Tarea2VF.LogicaClasica.Props_LC <> T:48 var
+binder 5542:5542 <> x:65
+R5551:5554 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R5547:5547 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5548:5548 Tarea2VF.LogicaClasica.Props_LC <> P:49 var
+R5550:5550 Tarea2VF.LogicaClasica.Props_LC <> x:65 var
+R5555:5555 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5556:5556 Tarea2VF.LogicaClasica.Props_LC <> H:50 var
+R5558:5558 Tarea2VF.LogicaClasica.Props_LC <> x:65 var
+binder 5966:5966 <> x:66
+R5978:5981 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R5973:5974 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5977:5977 Tarea2VF.LogicaClasica.Props_LC <> x:66 var
+R5982:5983 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5986:5986 Tarea2VF.LogicaClasica.Props_LC <> x:66 var
+binder 5966:5966 <> x:67
+R5978:5981 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R5973:5974 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5977:5977 Tarea2VF.LogicaClasica.Props_LC <> x:67 var
+R5982:5983 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5986:5986 Tarea2VF.LogicaClasica.Props_LC <> x:67 var
+binder 6021:6021 <> x:68
+R6031:6035 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6063:6063 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6030:6030 Tarea2VF.LogicaClasica.Props_LC <> x:68 var
+binder 6043:6043 <> y:69
+R6053:6056 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6062:6062 Tarea2VF.LogicaClasica.Props_LC <> y:69 var
+R6060:6060 Tarea2VF.LogicaClasica.Props_LC <> x:68 var
+R6052:6052 Tarea2VF.LogicaClasica.Props_LC <> y:69 var
+binder 6021:6021 <> x:70
+R6031:6035 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6063:6063 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6030:6030 Tarea2VF.LogicaClasica.Props_LC <> x:70 var
+binder 6043:6043 <> y:71
+R6053:6056 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6062:6062 Tarea2VF.LogicaClasica.Props_LC <> y:71 var
+R6060:6060 Tarea2VF.LogicaClasica.Props_LC <> x:70 var
+R6052:6052 Tarea2VF.LogicaClasica.Props_LC <> y:71 var
+R6103:6116 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R6103:6116 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R6148:6157 Coq.Logic.Classical_Prop <> not_or_and thm
+R6148:6157 Coq.Logic.Classical_Prop <> not_or_and thm
+R6189:6192 Coq.Logic.Classical_Prop <> NNPP thm
+R6189:6192 Coq.Logic.Classical_Prop <> NNPP thm
+R6209:6212 Coq.Logic.Classical_Prop <> NNPP thm
+R6209:6212 Coq.Logic.Classical_Prop <> NNPP thm
+binder 6282:6282 <> x:72
+R6292:6296 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6317:6317 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6291:6291 Tarea2VF.LogicaClasica.Props_LC <> x:72 var
+binder 6304:6304 <> y:73
+R6316:6316 Tarea2VF.LogicaClasica.Props_LC <> y:73 var
+R6314:6314 Tarea2VF.LogicaClasica.Props_LC <> x:72 var
+binder 6282:6282 <> x:74
+R6292:6296 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6317:6317 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6291:6291 Tarea2VF.LogicaClasica.Props_LC <> x:74 var
+binder 6304:6304 <> y:75
+R6316:6316 Tarea2VF.LogicaClasica.Props_LC <> y:75 var
+R6314:6314 Tarea2VF.LogicaClasica.Props_LC <> x:74 var
+R6387:6408 Tarea2VF.LogicaClasica.Props_LC <> Univ_distr_and_classic thm
+R6387:6408 Tarea2VF.LogicaClasica.Props_LC <> Univ_distr_and_classic thm

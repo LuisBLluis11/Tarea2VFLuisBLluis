@@ -4,84 +4,20 @@
   sección ejemplos *)
   
 Require Import Classical.
+From Tarea2VF Require Export Props_LC .
 
+(** Lemas *)
+(* LM*)
+Check PNNP_classic.
 
-(* Mias *)
+(* LC *)
+Check and_not_imply.
 
-Ltac tercero_ex T :=
-  assert (TE := classic (T));
-  destruct TE.
-(* Add LoadPath "C_LogicaClasica" .  *)
-(* Require Import Defs_LC . *)
-
-Ltac contradiction_classic :=
-match goal with
-| [ H1: ?A , H2: ~ ?A|- _ ] => contradict H1; assumption
-(*| [  |- ~ ?P] => tercero_ex (?P);  2 : {assumption . }*)
-end. 
-
-
-(* Lemas *)
-Lemma PNNP_classic: forall P: Prop,
-  P-> ~~P.
-Proof.
-  intros.
-  tercero_ex (~P).
-  contradiction_classic.
-  assumption.
-Qed.
-
-Proposition and_not_imply : forall A B : Prop, A /\~ B -> ~ (A -> B).
-Proof.
-intros A B H.
-destruct H.
-tercero_ex (~ (A -> B)).
-- assumption.
-- apply NNPP in H1.
-  apply H1 in H.
-  contradiction_classic.
-Qed.
-
-Theorem Contrapos_classic :forall P Q: Prop, (P -> Q) <-> (~Q -> ~P).
-Proof.
-  split.
-  + intros.
-    tercero_ex (P).
-    2:{ assumption. }
-    apply H in H1.
-    contradiction_classic.
-  + intros. 
-    tercero_ex Q.
-    assumption.
-    apply H in H1.
-    contradiction_classic.
-Qed.
-
+(* LC *)
+Check Contrapos_classic .
 
 (*LC y tal vez LI e incluso LM*)
-Lemma Univ_distr_and_classic: 
-  forall T ,forall P Q: T -> Prop  , (forall x :T,
-  ( P x /\ Q x)) <-> ((forall x:T, P x)/\ (forall x :T, Q x)).
-Proof.
-  intros.
-  split.
-  + split.
-    intros.
-    specialize H with x.
-    destruct H.
-    assumption .
-    intros.
-    specialize H with x.
-    destruct H.
-    assumption .
-  + intros.
-    destruct H.
-    split.
-    - specialize H with x.
-      assumption.
-    - specialize H0 with x.
-      assumption.
-Qed.
+Check Univ_distr_and_classic.
 
 (*LC y tal vez LI e incluso LM*)
 Lemma Univ_distr_and_classic_1: 
@@ -107,13 +43,7 @@ Proof.
     assumption.
 Qed.
   
-
-
-
-
-
-
-
+(** Ejercicios *)
 
 (* LC*)
 Proposition Ej1: forall A B C D: Prop,
@@ -157,7 +87,6 @@ Proof.
 Qed.
 
 
-
 (*LI y no LM porque usé contradict*)
 Proposition Ej3: forall (T: Type)(a:T)(P B R:T -> Prop),
   (forall x :T, (P x -> ~B x))->
@@ -171,6 +100,7 @@ Proof.
   apply H.
   assumption.
 Qed.
+
 
 (* LC*)
 Proposition Ej4: forall (X: Type)(P B R S T:X -> Prop),
@@ -191,6 +121,7 @@ Proof.
   contradiction.
 Qed.
 
+
 (* LC  e incluso LM *)
 Proposition Ej5: forall (X: Type)(a:X)(P B:X -> Prop),
   (forall x:X, (P x /\ (exists y: X, B y)))-> (exists x: X, (P x /\ B x)).
@@ -208,7 +139,6 @@ Proof.
     assumption.
   + assumption.
 Qed.
-
 
 
 (* Desde LI, quizás incluso LM *)
@@ -251,21 +181,4 @@ Proof.
   exists x.
   apply H.
 Qed.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

@@ -45,7 +45,7 @@ Qed.
   
 (** Ejercicios *)
 
-(* LC*)
+(* LC por el tercero_ex*)
 Proposition Ej1: forall A B C D: Prop,
   (A-> B)->
   (~(A\/C)-> D)->
@@ -67,7 +67,7 @@ Proof.
 Qed.
   
 
-(* LC*)
+(*LC por el NNPP *)
 Proposition Ej2: forall A B C D: Prop, 
   (A \/ B)->
   ((~D->C)->(~B->~A)->(C-> ~B)->D).
@@ -102,7 +102,7 @@ Proof.
 Qed.
 
 
-(* LC*)
+(* LC por el imply_to_or*)
 Proposition Ej4: forall (X: Type)(P B R S T:X -> Prop),
   (forall x:X,(P x \/ B x) -> ~ R x)->
   (forall x:X, (S x -> R x))->

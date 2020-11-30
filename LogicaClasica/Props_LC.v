@@ -4,7 +4,6 @@
   sección de lógica clásica  *)
 Require Import Classical.
 From Tarea2VF Require Export Defs_LC .
-From Tarea2VF Require Import Props_LM .
   
 
 
@@ -22,11 +21,12 @@ tercero_ex (~ (A -> B)).
   contradiction_classic.
 Qed.
 
-(* Este teorema se prueba en LM pero usa intros
-  por lo que se vuelve a probar en forma clásica para
+(* Este teorema se prueba en LM pero usa intros sobre la negación
+   por lo que se vuelve a probar en forma clásica para
   evitar usar estas técnicas. No obstante su uso no
   implica que nos salgamos de LM *)
-Check PNNP.
+(* From Tarea2VF Require Import Props_LM . *)
+(* Check PNNP.*)
 
 Lemma PNNP_classic: forall P: Prop,
   P-> ~~P.
